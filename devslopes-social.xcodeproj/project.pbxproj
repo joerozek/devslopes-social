@@ -17,6 +17,11 @@
 		CB56FF421F672AC900BFAC9C /* devslopes_socialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB56FF411F672AC900BFAC9C /* devslopes_socialTests.swift */; };
 		CB56FF4D1F672AC900BFAC9C /* devslopes_socialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB56FF4C1F672AC900BFAC9C /* devslopes_socialUITests.swift */; };
 		CB56FF5B1F672BA300BFAC9C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CB56FF5A1F672BA300BFAC9C /* GoogleService-Info.plist */; };
+		CBA491571F678D01004657C5 /* FancyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA491561F678D01004657C5 /* FancyView.swift */; };
+		CBA4915A1F678E13004657C5 /* Contants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA491591F678E13004657C5 /* Contants.swift */; };
+		CBA4915C1F6790FA004657C5 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA4915B1F6790FA004657C5 /* RoundButton.swift */; };
+		CBA4915E1F67A9E1004657C5 /* FancyField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA4915D1F67A9E1004657C5 /* FancyField.swift */; };
+		CBA491601F67AB27004657C5 /* FancyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA4915F1F67AB27004657C5 /* FancyButton.swift */; };
 		CC8982AB149775DF8667FDFE /* Pods_devslopes_social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01ABC19159A053E2551C77F8 /* Pods_devslopes_social.framework */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +50,7 @@
 		802EEC0AD845C664C33EA25F /* Pods-devslopes-social.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-devslopes-social.release.xcconfig"; path = "Pods/Target Support Files/Pods-devslopes-social/Pods-devslopes-social.release.xcconfig"; sourceTree = "<group>"; };
 		8337E6CB022AD171FDC8D2CE /* Pods-devslopes-socialTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-devslopes-socialTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-devslopes-socialTests/Pods-devslopes-socialTests.release.xcconfig"; sourceTree = "<group>"; };
 		A64B4F0155B70AFD50C70C28 /* Pods-devslopes-social.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-devslopes-social.debug.xcconfig"; path = "Pods/Target Support Files/Pods-devslopes-social/Pods-devslopes-social.debug.xcconfig"; sourceTree = "<group>"; };
+		CB42DD481F68481A0041F287 /* devslopes-social.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "devslopes-social.entitlements"; sourceTree = "<group>"; };
 		CB56FF291F672AC900BFAC9C /* devslopes-social.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "devslopes-social.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB56FF2C1F672AC900BFAC9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB56FF2E1F672AC900BFAC9C /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
@@ -59,6 +65,11 @@
 		CB56FF4C1F672AC900BFAC9C /* devslopes_socialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = devslopes_socialUITests.swift; sourceTree = "<group>"; };
 		CB56FF4E1F672AC900BFAC9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB56FF5A1F672BA300BFAC9C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CBA491561F678D01004657C5 /* FancyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyView.swift; sourceTree = "<group>"; };
+		CBA491591F678E13004657C5 /* Contants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contants.swift; sourceTree = "<group>"; };
+		CBA4915B1F6790FA004657C5 /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		CBA4915D1F67A9E1004657C5 /* FancyField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyField.swift; sourceTree = "<group>"; };
+		CBA4915F1F67AB27004657C5 /* FancyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyButton.swift; sourceTree = "<group>"; };
 		E34AFFC444E5DF9CF57C6B12 /* Pods_devslopes_socialTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_devslopes_socialTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE9E5742AD00B032C49F63CD /* Pods-devslopes-socialTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-devslopes-socialTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-devslopes-socialTests/Pods-devslopes-socialTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -139,6 +150,8 @@
 		CB56FF2B1F672AC900BFAC9C /* devslopes-social */ = {
 			isa = PBXGroup;
 			children = (
+				CB42DD481F68481A0041F287 /* devslopes-social.entitlements */,
+				CBA491581F678E00004657C5 /* Util */,
 				CB68EFE91F6730BE00AB7F36 /* Controller */,
 				CB68EFE81F6730BA00AB7F36 /* View */,
 				CB68EFE71F6730B500AB7F36 /* Model */,
@@ -180,6 +193,10 @@
 		CB68EFE81F6730BA00AB7F36 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CBA491561F678D01004657C5 /* FancyView.swift */,
+				CBA4915B1F6790FA004657C5 /* RoundButton.swift */,
+				CBA4915D1F67A9E1004657C5 /* FancyField.swift */,
+				CBA4915F1F67AB27004657C5 /* FancyButton.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -190,6 +207,14 @@
 				CB56FF2E1F672AC900BFAC9C /* SignInVC.swift */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		CBA491581F678E00004657C5 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				CBA491591F678E13004657C5 /* Contants.swift */,
+			);
+			name = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +296,11 @@
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = DSN7EZABA7;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					CB56FF3C1F672AC900BFAC9C = {
 						CreatedOnToolsVersion = 8.3.2;
@@ -477,8 +507,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBA4915E1F67A9E1004657C5 /* FancyField.swift in Sources */,
 				CB56FF2F1F672AC900BFAC9C /* SignInVC.swift in Sources */,
+				CBA4915C1F6790FA004657C5 /* RoundButton.swift in Sources */,
+				CBA491601F67AB27004657C5 /* FancyButton.swift in Sources */,
 				CB56FF2D1F672AC900BFAC9C /* AppDelegate.swift in Sources */,
+				CBA491571F678D01004657C5 /* FancyView.swift in Sources */,
+				CBA4915A1F678E13004657C5 /* Contants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -633,6 +668,7 @@
 			baseConfigurationReference = A64B4F0155B70AFD50C70C28 /* Pods-devslopes-social.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "devslopes-social/devslopes-social.entitlements";
 				DEVELOPMENT_TEAM = DSN7EZABA7;
 				INFOPLIST_FILE = "devslopes-social/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -647,6 +683,7 @@
 			baseConfigurationReference = 802EEC0AD845C664C33EA25F /* Pods-devslopes-social.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "devslopes-social/devslopes-social.entitlements";
 				DEVELOPMENT_TEAM = DSN7EZABA7;
 				INFOPLIST_FILE = "devslopes-social/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
