@@ -23,6 +23,7 @@
 		CBA4915C1F6790FA004657C5 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA4915B1F6790FA004657C5 /* RoundButton.swift */; };
 		CBA4915E1F67A9E1004657C5 /* FancyField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA4915D1F67A9E1004657C5 /* FancyField.swift */; };
 		CBA491601F67AB27004657C5 /* FancyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA4915F1F67AB27004657C5 /* FancyButton.swift */; };
+		CBF5299E1F7329ED00035E91 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF5299D1F7329ED00035E91 /* CircleView.swift */; };
 		CC8982AB149775DF8667FDFE /* Pods_devslopes_social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01ABC19159A053E2551C77F8 /* Pods_devslopes_social.framework */; };
 /* End PBXBuildFile section */
 
@@ -72,6 +73,7 @@
 		CBA4915B1F6790FA004657C5 /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		CBA4915D1F67A9E1004657C5 /* FancyField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyField.swift; sourceTree = "<group>"; };
 		CBA4915F1F67AB27004657C5 /* FancyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyButton.swift; sourceTree = "<group>"; };
+		CBF5299D1F7329ED00035E91 /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		E34AFFC444E5DF9CF57C6B12 /* Pods_devslopes_socialTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_devslopes_socialTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE9E5742AD00B032C49F63CD /* Pods-devslopes-socialTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-devslopes-socialTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-devslopes-socialTests/Pods-devslopes-socialTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -199,6 +201,7 @@
 				CBA4915B1F6790FA004657C5 /* RoundButton.swift */,
 				CBA4915D1F67A9E1004657C5 /* FancyField.swift */,
 				CBA4915F1F67AB27004657C5 /* FancyButton.swift */,
+				CBF5299D1F7329ED00035E91 /* CircleView.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -510,6 +513,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBF5299E1F7329ED00035E91 /* CircleView.swift in Sources */,
 				CBA4915E1F67A9E1004657C5 /* FancyField.swift in Sources */,
 				CB56FF2F1F672AC900BFAC9C /* SignInVC.swift in Sources */,
 				CBA4915C1F6790FA004657C5 /* RoundButton.swift in Sources */,
