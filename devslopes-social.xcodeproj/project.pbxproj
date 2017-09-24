@@ -17,7 +17,7 @@
 		CB56FF371F672AC900BFAC9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB56FF351F672AC900BFAC9C /* LaunchScreen.storyboard */; };
 		CB56FF421F672AC900BFAC9C /* devslopes_socialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB56FF411F672AC900BFAC9C /* devslopes_socialTests.swift */; };
 		CB56FF4D1F672AC900BFAC9C /* devslopes_socialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB56FF4C1F672AC900BFAC9C /* devslopes_socialUITests.swift */; };
-		CB56FF5B1F672BA300BFAC9C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CB56FF5A1F672BA300BFAC9C /* GoogleService-Info.plist */; };
+		CB96FF411F77436B00E9E363 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CB96FF401F77436B00E9E363 /* GoogleService-Info.plist */; };
 		CBA491571F678D01004657C5 /* FancyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA491561F678D01004657C5 /* FancyView.swift */; };
 		CBA4915A1F678E13004657C5 /* Contants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA491591F678E13004657C5 /* Contants.swift */; };
 		CBA4915C1F6790FA004657C5 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA4915B1F6790FA004657C5 /* RoundButton.swift */; };
@@ -67,7 +67,7 @@
 		CB56FF481F672AC900BFAC9C /* devslopes-socialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "devslopes-socialUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB56FF4C1F672AC900BFAC9C /* devslopes_socialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = devslopes_socialUITests.swift; sourceTree = "<group>"; };
 		CB56FF4E1F672AC900BFAC9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CB56FF5A1F672BA300BFAC9C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CB96FF401F77436B00E9E363 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CBA491561F678D01004657C5 /* FancyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyView.swift; sourceTree = "<group>"; };
 		CBA491591F678E13004657C5 /* Contants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contants.swift; sourceTree = "<group>"; };
 		CBA4915B1F6790FA004657C5 /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
@@ -154,12 +154,12 @@
 		CB56FF2B1F672AC900BFAC9C /* devslopes-social */ = {
 			isa = PBXGroup;
 			children = (
+				CB96FF401F77436B00E9E363 /* GoogleService-Info.plist */,
 				CB42DD481F68481A0041F287 /* devslopes-social.entitlements */,
 				CBA491581F678E00004657C5 /* Util */,
 				CB68EFE91F6730BE00AB7F36 /* Controller */,
 				CB68EFE81F6730BA00AB7F36 /* View */,
 				CB68EFE71F6730B500AB7F36 /* Model */,
-				CB56FF5A1F672BA300BFAC9C /* GoogleService-Info.plist */,
 				CB56FF2C1F672AC900BFAC9C /* AppDelegate.swift */,
 				CB56FF301F672AC900BFAC9C /* Main.storyboard */,
 				CB56FF331F672AC900BFAC9C /* Assets.xcassets */,
@@ -348,7 +348,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB56FF371F672AC900BFAC9C /* LaunchScreen.storyboard in Resources */,
-				CB56FF5B1F672BA300BFAC9C /* GoogleService-Info.plist in Resources */,
+				CB96FF411F77436B00E9E363 /* GoogleService-Info.plist in Resources */,
 				CB56FF341F672AC900BFAC9C /* Assets.xcassets in Resources */,
 				CB56FF321F672AC900BFAC9C /* Main.storyboard in Resources */,
 			);
