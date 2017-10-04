@@ -50,17 +50,23 @@ class SignInVC: UIViewController {
     
     @IBAction func signInTapped(_ sender: Any) {
         if let email = emailField.text, let password = passwordField.text {
-            Auth.auth().signIn(withEmail: email, password: password, completion: { (user:User?, error) in
+            Auth.auth().signIn(withEmail: email, password: password, completion: { (user, error) in
                 if error == nil {
-                    print("JOE: User authenticated with email")
-                    self.completeSignIn(user: user)
+                    if let user = user {
+                        print("JOE: User authenticated with email")
+                        let userData = ["provider" : user.providerID]
+                        self.completeSignIn(uid: user.uid, userData: userData)
+                    }
                 } else {
                     Auth.auth().createUser(withEmail: email, password: password, completion: { (user:User?, error) in
                         if error != nil {
                             print("JOE: unable to authenticate user with firebase \(String(describing: error))")
                         } else {
-                            self.completeSignIn(user: user)
-                            print("JOE: Successfully authenicated the user with firebase")
+                            if let user = user {
+                                let userData = ["provider" : user.providerID]
+                                self.completeSignIn(uid: user.uid, userData: userData)
+                                print("JOE: Successfully authenicated the user with firebase")
+                            }
                         }
                     })
                 }
@@ -68,13 +74,11 @@ class SignInVC: UIViewController {
         }
     }
     
-    func completeSignIn(user: User?) {
-        print("complete sign in")
-        if let user = user {
-            print("adding to keychain")
-            KeychainWrapper.standard.set(user.uid, forKey: KEY_UID)
-            performSegue(withIdentifier: "goToFeed", sender: nil)
-        }
+    func completeSignIn(uid: String, userData:Dictionary<String, String>) {
+        DataService.ds.createFireBaseDBUser(uid:uid, userData: userData)
+        let _ = KeychainWrapper.standard.set(uid, forKey: KEY_UID)
+        print("adding to keychain")
+        performSegue(withIdentifier: "goToFeed", sender: nil)
     }
     
     func firebaseAuthentication(_ credential: AuthCredential) {
@@ -82,8 +86,12 @@ class SignInVC: UIViewController {
             if error != nil {
                 print ("JOE: unable to authenicate with firebase ")
             } else {
-                print("JOE: signed in with firebase")
-                self.completeSignIn(user: user)
+                if let user = user {
+                    print("JOE: signed in with firebase \(credential.provider)")
+                    let userData = ["provider" : credential.provider]
+
+                    self.completeSignIn(uid: user.uid, userData: userData)
+                }
             }
         })
     }
