@@ -41,6 +41,7 @@ class FeedVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
 
     @IBAction func signOutTapped(_ sender: Any) {
+        print ("tapped sign out")
         KeychainWrapper.standard.removeObject(forKey: KEY_UID)
         try! Auth.auth().signOut()
         performSegue(withIdentifier: "goToSignIn", sender: nil)
