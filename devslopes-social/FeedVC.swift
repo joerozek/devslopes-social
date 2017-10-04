@@ -18,6 +18,9 @@ class FeedVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         super.viewDidLoad()
         tableView.delegate = self
         tableView.dataSource = self
+        DataService.ds.REF_POSTS.observe(.value, with:{ (snapshot) in
+            print(snapshot.value)
+        })
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {
@@ -37,9 +40,6 @@ class FeedVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         // Dispose of any resources that can be recreated.
     }
     
-    
-    
-
     @IBAction func signOutTapped(_ sender: Any) {
         print ("tapped sign out")
         KeychainWrapper.standard.removeObject(forKey: KEY_UID)
